@@ -23,13 +23,16 @@ public class Sketch extends PApplet {
    * Called repeatedly, anything drawn to the screen goes here
    */
   public void draw() {
-
+    
+    //base of the house
     fill(255, 0, 0);
     square(150, 200, 300);
 
+    //draws the roof
     fill(212, 175, 55);
     triangle(150, 200, 300, 50, 450, 200);
 
+    //draws a door on "top" of the house
     fill(34, 139, 34);
     rect(300, 300, 100, 200);
 
