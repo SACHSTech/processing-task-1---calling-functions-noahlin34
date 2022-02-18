@@ -24,6 +24,9 @@ public class Sketch extends PApplet {
    */
   public void draw() {
     
+    fill(150, 75, 0);
+    rect(0, 400, 2000, 200);
+
     //base of the house
     fill(255, 0, 0);
     square(150, 200, 300);
@@ -35,6 +38,8 @@ public class Sketch extends PApplet {
     //draws a door on "top" of the house
     fill(34, 139, 34);
     rect(300, 300, 100, 200);
+
+ 
 
     
   }
