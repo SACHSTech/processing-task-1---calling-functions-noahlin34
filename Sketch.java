@@ -23,7 +23,10 @@ public class Sketch extends PApplet {
    * Called repeatedly, anything drawn to the screen goes here
    */
   public void draw() {
-    
+
+    fill(255, 255, 0);
+    ellipse(15, 15, 100, 100);
+
     fill(150, 75, 0);
     rect(0, 400, 2000, 200);
 
@@ -38,6 +41,9 @@ public class Sketch extends PApplet {
     //draws a door on "top" of the house
     fill(34, 139, 34);
     rect(300, 300, 100, 200);
+
+
+
 
  
 
