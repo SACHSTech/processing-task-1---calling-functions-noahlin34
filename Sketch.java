@@ -23,10 +23,12 @@ public class Sketch extends PApplet {
    * Called repeatedly, anything drawn to the screen goes here
    */
   public void draw() {
-
+    
+    //the sun
     fill(255, 255, 0);
     ellipse(15, 15, 100, 100);
 
+    //draws the ground
     fill(150, 75, 0);
     rect(0, 400, 2000, 200);
 
